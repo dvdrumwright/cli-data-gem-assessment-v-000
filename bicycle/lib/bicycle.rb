@@ -1,5 +1,11 @@
 require "bicycle/version"
 
 module Bicycle
-  # Your code goes here...
+  
+  module Zerp  
+  class Chatter
+    def say_hello
+      puts 'This is zerp. Coming in loud and clear. Over.'
+    end
+  end
 end
