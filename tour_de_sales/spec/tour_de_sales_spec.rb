@@ -1,6 +1,6 @@
-RSpec.describe Bicycle do
+RSpec.describe TourDeSales do
   it "has a version number" do
-    expect(Bicycle::VERSION).not_to be nil
+    expect(TourDeSales::VERSION).not_to be nil
   end
 
   it "does something useful" do

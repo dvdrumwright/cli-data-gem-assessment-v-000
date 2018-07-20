@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "biycle"
+require "tour_de_sales"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
