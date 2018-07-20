@@ -1,6 +1,6 @@
-RSpec.describe Zerp do
+RSpec.describe Bicycle do
   it "has a version number" do
-    expect(Zerp::VERSION).not_to be nil
+    expect(Bicycle::VERSION).not_to be nil
   end
 
   it "does something useful" do

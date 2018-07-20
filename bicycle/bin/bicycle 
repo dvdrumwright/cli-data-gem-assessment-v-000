@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'bicycle'
+
+chatter = Zerp::Product.new  
+Product.say_helo

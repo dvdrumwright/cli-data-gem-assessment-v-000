@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "zerp"
+require "bicycle"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

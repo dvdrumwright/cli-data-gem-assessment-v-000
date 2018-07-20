@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "zerp/version"
+require "bicycle/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "zerp"
-  spec.version       = Zerp::VERSION
+  spec.name          = "bicycle"
+  spec.version       = Bicycle::VERSION
   spec.authors       = ["'Daniel  Drumwright'"]
   spec.email         = ["'danieldrumwright@gmail.com'"]
 
