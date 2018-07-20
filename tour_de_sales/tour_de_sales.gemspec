@@ -13,7 +13,11 @@ Gem::Specification.new do |spec|
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
-  spec.add_development_dependency "rspec", "~> 3.2"
+   gem.files         = `git ls-files`.split($\)
+   gem.executables   = ["tour_de_sales"]
+   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+   gem.require_paths = ["lib"]
+  
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
