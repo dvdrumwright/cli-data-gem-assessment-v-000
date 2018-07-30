@@ -1,6 +1,6 @@
-RSpec.describe CyclingDeal do
+RSpec.describe FamousItalianRecipes do
   it "has a version number" do
-    expect(CyclingDeal::VERSION).not_to be nil
+    expect(FamousItalianRecipes::VERSION).not_to be nil
   end
 
   it "does something useful" do

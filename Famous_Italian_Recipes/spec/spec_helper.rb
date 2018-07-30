@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "cycling_deal"
+require "Famous_Italian_Recipes"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
