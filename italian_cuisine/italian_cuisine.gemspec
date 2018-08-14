@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "Famous_Italian_Recipes/version"
+require "italian_cuisine/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Famous_Italian_Recipes"
-  spec.version       = FamousItalianRecipes::VERSION
+  spec.name          = "italian_cuisine"
+  spec.version       = ItalianCuisine::VERSION
   spec.authors       = ["'Daniel  Drumwright'"]
   spec.email         = ["'danieldrumwright@gmail.com'"]
 

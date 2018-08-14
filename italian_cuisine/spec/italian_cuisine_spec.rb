@@ -1,6 +1,6 @@
-RSpec.describe FamousItalianRecipes do
+RSpec.describe ItalianCuisine do
   it "has a version number" do
-    expect(FamousItalianRecipes::VERSION).not_to be nil
+    expect(ItalianCuisine::VERSION).not_to be nil
   end
 
   it "does something useful" do
