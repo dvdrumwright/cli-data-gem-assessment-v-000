@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "italian_cuisine"
+require "italian_food"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

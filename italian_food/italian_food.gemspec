@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "italian_cuisine/version"
+require "italian_food/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "italian_cuisine"
-  spec.version       = ItalianCuisine::VERSION
+  spec.name          = "italian_food"
+  spec.version       = ItalianFood::VERSION
   spec.authors       = ["'Daniel  Drumwright'"]
   spec.email         = ["'danieldrumwright@gmail.com'"]
 
@@ -35,4 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  
+  
+
 end
