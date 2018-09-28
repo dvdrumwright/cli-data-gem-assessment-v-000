@@ -13,7 +13,7 @@
   def welcome_method 
       puts "Welcome to Wagging Tails"
         puts "Please choose from the following dog name list:"
-     @scraping = Scrape.all 
+     @scraping = Dog.all 
      @scraping.each.with_index(1) do |recipe, i| 
       puts "#{i}. #{recipe.name}" 
    end 
