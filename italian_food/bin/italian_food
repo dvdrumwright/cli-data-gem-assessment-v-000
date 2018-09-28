@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby 
-
-require './lib/italian_food/'
-
-ItalianFood::CLI.new.call  
-
-
-
-
