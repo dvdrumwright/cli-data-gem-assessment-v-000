@@ -2,16 +2,13 @@ class Dog
   
   attr_accessor :name, :info, :url
 
-    @@all = []
+  @@all = []
 
-     def self.all
-       @@all
-     end
+  def self.all
+      @@all
+  end
 
-     def save
-        @@all << self
-     end
-
-  
-  
+  def save
+      @@all << self
+  end
 end 

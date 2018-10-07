@@ -1,10 +1,7 @@
-
-
-
   class Scrape
 
     
-    def self.make_dogs
+  def self.make_dogs
     url = "https://waggingtailsrescue.org/"
     doc = Nokogiri::HTML(open(url))
     
@@ -16,8 +13,7 @@
     dog.info = doc.css("div.project-meta")[i].text
     dog.save 
    
-  end 
-    
     end 
-       end 
+    end 
+  end 
  
