@@ -24,9 +24,7 @@
     input = nil
    
   while input != "exit" 
-    # input_one = "info"
-    # input_two = "Info"
-    input = "info"
+    # input = "info"
     input = gets.strip.downcase
     inp = input.to_i
   
