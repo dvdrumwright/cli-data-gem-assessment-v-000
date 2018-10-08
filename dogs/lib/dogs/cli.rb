@@ -34,7 +34,7 @@
  
   elsif  input == "info"
     puts "#{the_scraper.info}"
-  "To see our adoption list again type list or if you have had enough adorable cuteness for today type exit"      
+  "To see our adoption list again type list or if you have had enough adorable cuteness for today type exit".gsub(/\W/, '\\0')      
 
   elsif input == "list"
     welcome_method
