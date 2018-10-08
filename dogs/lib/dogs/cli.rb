@@ -11,7 +11,7 @@
   
    
   def welcome_method 
-    puts "Welcome to Wagging Tails rescue \u{1f600}"
+    puts "Welcome to Wagging Tails rescue \u{1F436}"
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
     puts "#{i}. #{recipe.name}" 
