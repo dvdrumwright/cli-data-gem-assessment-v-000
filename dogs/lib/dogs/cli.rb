@@ -26,7 +26,7 @@
   while input != "exit" 
     input_one = "info"
     input_two = "Info"
-    input = gets.strip
+    input = gets.strip.down
     inp = input.to_i
   
   if inp.between?(1,20)
