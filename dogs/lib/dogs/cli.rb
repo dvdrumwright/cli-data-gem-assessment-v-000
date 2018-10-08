@@ -30,11 +30,11 @@
   if inp.between?(1,20)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
-    puts "If you would like more information r"
+    puts "Type infor to learn more about your selection"
  
   elsif  input == "info"
     puts "#{the_scraper.info}"
-    puts "To see the dogs list again type list or exit."      
+    puts "To see our adoption list again type list or type exit "      
 
   elsif input == "list"
     welcome_method
