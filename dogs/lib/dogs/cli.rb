@@ -30,7 +30,7 @@
   if inp.between?(1,20)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
-    puts "Type infor to learn more about your selection"
+    puts "Type info to learn more about your selection"
  
   elsif  input == "info"
     puts "#{the_scraper.info}"
