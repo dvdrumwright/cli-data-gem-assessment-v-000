@@ -45,10 +45,10 @@
       
   end 
   end 
-  good_bye_method 
   end 
  
  def good_bye_method 
-    puts "See you next time!"
+    puts "See you next time"
+    puts ""
   end 
 end 
