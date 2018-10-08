@@ -26,7 +26,7 @@
   while input != "exit" 
     input_one = "info"
     input_two = "Info"
-    input = gets.strip.down
+    input = gets.strip.downcase
     inp = input.to_i
   
   if inp.between?(1,20)
@@ -34,7 +34,7 @@
     puts "#{the_scraper.name}"  
     puts "Great choice!!! if you would like more information about this dog type  => info"
  
-  elsif  input_one.upcase ==input_two.upcase
+  elsif  input == "info"
     puts "#{the_scraper.info}"
     puts "To see the dogs list again type list or exit."      
 
