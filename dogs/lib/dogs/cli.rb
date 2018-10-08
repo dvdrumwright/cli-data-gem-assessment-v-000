@@ -37,7 +37,7 @@
     puts "To go back to our adoptions menu type list if you had enough cuteness type exit"     
 
   elsif input == "list"
-    puts "Whoops!! invalid selection please type list or exit."
+    puts "Whoops!! invalid selection please type list or exit \u{1f60e}"
     welcome_method
   
   else
