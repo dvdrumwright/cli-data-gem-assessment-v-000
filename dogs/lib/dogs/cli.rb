@@ -42,10 +42,10 @@
   
   else 
       puts "Whoops!! invalid selection please type list or exit."
+      good_bye_method 
   end 
   end 
   end 
- 
  
  def good_bye_method 
     puts "See you next time!"
