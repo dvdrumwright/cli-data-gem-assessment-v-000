@@ -11,7 +11,7 @@
   
    
   def welcome_method 
-    puts "Welcome to Wagging Tails"
+    puts ""
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
     puts "#{i}. #{recipe.name}" 
@@ -24,7 +24,6 @@
     input = nil
    
   while input != "exit" 
-    # input = "info"
     input = gets.strip.downcase
     inp = input.to_i
   
