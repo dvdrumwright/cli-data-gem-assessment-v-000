@@ -16,7 +16,7 @@
     @scraping.each.with_index(1) do |recipe, i| 
     puts "#{i}. #{recipe.name}" 
     end 
-    puts "Please choose from the following selections \u{1f42f}"
+    puts "Please choose from the following selections \u{1F436}"
   end 
 
   
