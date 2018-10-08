@@ -1,6 +1,7 @@
   class CLI
  
-   def call 
+  
+  def call 
       Scrape.make_dogs
       welcome_method
       input_from_user_method
@@ -13,32 +14,30 @@
     puts "Welcome to Wagging Tails"
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
-      puts "#{i}. #{recipe.name}" 
+    puts "#{i}. #{recipe.name}" 
     end 
     puts "Please choose a dog name from the list"
   end 
 
   
-  
- 
   def input_from_user_method 
     input = nil
    
   while input != "exit" 
-    input != "info"
+    input_one = "info"
+    input_two = "Info"
     input = gets.strip
     inp = input.to_i
-    
-    
-  if inp.between?(1,23)
+  
+  if inp.between?(1,20)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
     puts "Great choice!!! if you would like more information about this dog type  => info"
-  
-  elsif input == ["info", "INFO"].include?(input.upcase)
+ 
+  elsif  input_one.upcase ==input_two.upcase
     puts "#{the_scraper.info}"
     puts "To see the dogs list again type list or exit."      
-  
+
   elsif input == "list"
     welcome_method
        
@@ -50,14 +49,23 @@
   end 
  
  
- 
-  def good_bye_method 
-      puts "See you next time!"
-    end 
+ def good_bye_method 
+    puts "See you next time!"
+  end 
   end 
 
+  
  
 
+ 
+  
+  
+# input1 = "info"
+# input2 = "Info"
+# lang1.upcase == lang2.upcase
+  
+  
+  
   # def input_from_user_method 
   #   input = nil
    
