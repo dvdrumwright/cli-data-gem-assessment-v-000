@@ -40,7 +40,7 @@
     welcome_method
   
   else
-      puts "Whoops!! invalid selection please type list or exit \u{1f60e}"
+      puts "Whoops!! invalid selection please type list or exit \u{1f63e}"
       
   end 
   end 
