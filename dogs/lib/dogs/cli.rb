@@ -41,11 +41,11 @@
     welcome_method
   
   else
-    good_bye_method 
       puts "Whoops!! invalid selection please type list or exit."
       
   end 
   end 
+  good_bye_method 
   end 
  
  def good_bye_method 
