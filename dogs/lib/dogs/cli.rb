@@ -40,11 +40,11 @@
     puts "Whoops!! invalid selection please type list or exit."
     welcome_method
   
-  else 
+  else
+    good_bye_method 
       puts "Whoops!! invalid selection please type list or exit."
       
   end 
-  good_bye_method 
   end 
   end 
  
