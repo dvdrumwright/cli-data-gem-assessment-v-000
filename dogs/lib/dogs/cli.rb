@@ -16,7 +16,7 @@
     @scraping.each.with_index(1) do |recipe, i| 
     puts "#{i}. #{recipe.name}" 
     end 
-    puts ""
+    puts "Feel free to choose from the following selections"
   end 
 
   
@@ -30,7 +30,7 @@
   if inp.between?(1,20)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
-    puts "Great choice!!! if you would like more information about this dog type  => info"
+    puts "If you would like to know about more about your selection please type info"
  
   elsif  input == "info"
     puts "#{the_scraper.info}"
