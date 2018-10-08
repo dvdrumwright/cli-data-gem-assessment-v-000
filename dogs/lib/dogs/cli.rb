@@ -42,8 +42,9 @@
   
   else 
       puts "Whoops!! invalid selection please type list or exit."
-      good_bye_method 
+      
   end 
+  good_bye_method 
   end 
   end 
  
