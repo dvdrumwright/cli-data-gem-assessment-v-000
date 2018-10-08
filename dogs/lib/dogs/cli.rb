@@ -39,10 +39,9 @@
   elsif input == "list"
     puts "Whoops!! invalid selection please type list or exit."
     welcome_method
-      # puts "Whoops!! invalid selection please type list or exit."
+  
   else 
-      # puts "Whoops!! invalid selection please type list or exit."
-      
+      puts "Whoops!! invalid selection please type list or exit."
   end 
   end 
   end 
