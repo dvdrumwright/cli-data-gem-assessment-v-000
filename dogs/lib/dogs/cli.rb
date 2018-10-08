@@ -12,6 +12,7 @@
    
   def welcome_method 
     puts "Welcome to Wagging Tails rescue"
+    
     puts "\u{1f600}"
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
