@@ -1,6 +1,8 @@
 require 'open-uri'
 require 'pry'
 require 'nokogiri'
+require 'active_emoji'
+
 
 
 
