@@ -23,13 +23,11 @@
   def input_from_user_method 
     input = nil
    
-  
   while input != "exit" 
     input_one = "info"
     input_two = "Info"
     input = gets.strip.downcase
     inp = input.to_i
-  
   
   if inp.between?(1,20)
     the_scraper = @scraping[inp - 1]
@@ -40,7 +38,6 @@
     puts "#{the_scraper.info}"
     puts "To see the dogs list again type list or exit."      
 
-  
   elsif input == "list"
     welcome_method
        
