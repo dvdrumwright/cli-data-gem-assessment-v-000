@@ -7,8 +7,7 @@
         good_bye_method
     end 
 
-  
-   
+    
     def welcome_method 
       puts "\u{1f436}  Welcome to Wagging Tails Rescue  \u{1f436}"
       @scraping = Dog.all 
