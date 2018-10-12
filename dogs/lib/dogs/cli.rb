@@ -1,4 +1,4 @@
-  class CLI
+    class CLI
  
      def call 
         Scrape.make_dogs

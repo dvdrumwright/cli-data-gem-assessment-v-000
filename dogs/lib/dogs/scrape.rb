@@ -1,4 +1,4 @@
-  class Scrape
+    class Scrape
 
     
     def self.make_dogs
@@ -8,7 +8,7 @@
         doc_list  = doc.css("a.project")
         doc_list.each.with_index do |element, i| 
       
-      next if doc_list.css("div.project-title")[i].text == "Weekly Adoptions"
+    next if doc_list.css("div.project-title")[i].text == "Weekly Adoptions"
         dog = Dog.new 
         dog.name = doc_list.css("div.project-title")[i].text 
         dog.info = doc.css("div.project-meta")[i].text
