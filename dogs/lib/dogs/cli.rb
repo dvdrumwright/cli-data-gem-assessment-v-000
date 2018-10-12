@@ -26,7 +26,7 @@
    
   while input != "exit" 
     input != "info"
-    input = gets.strip
+    input = gets.strip.downcase 
     inp = input.to_i
     
     
