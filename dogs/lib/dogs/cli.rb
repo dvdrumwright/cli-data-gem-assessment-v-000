@@ -10,17 +10,15 @@
   
    
   def welcome_method 
-    puts "Welcome to Wagging Tails pet adoptions"
+    puts "\u{1f436}  Welcome to Wagging Tails Rescue  \u{1f436}"
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
-      puts "#{i}. #{recipe.name}" 
+    puts "#{i}. #{recipe.name}" 
     end 
-    puts "Please choose from the following selections \u{1f436}"
+   puts "Please choose from the following selections \u{1f436}"
   end 
 
   
-  
- 
   def input_from_user_method 
     input = nil
    
