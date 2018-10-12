@@ -34,7 +34,7 @@
         
     elsif input == "info"
           puts "#{the_scraper.info}"
-          puts "To go back to our adoption menu type list if you have enough cuteness type exit"      
+          puts "To go back to our adoption menu type list if you had enough cuteness type exit"      
         
     elsif input == "list"
           welcome_method
