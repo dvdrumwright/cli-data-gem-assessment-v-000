@@ -10,12 +10,12 @@
   
    
   def welcome_method 
-    puts "Welcome to Wagging Tails"
+    puts "Welcome to Wagging Tails pet adoptions"
     @scraping = Dog.all 
     @scraping.each.with_index(1) do |recipe, i| 
       puts "#{i}. #{recipe.name}" 
     end 
-    puts "Please choose a dog name from the list"
+    puts "Please choose from the following selections \u{1f436}"
   end 
 
   
@@ -30,7 +30,7 @@
     inp = input.to_i
     
     
-  if inp.between?(1,23)
+  if inp.between?(1,@scraping.size)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
     puts "Great choice!!! if you would like more information about this dog type  => info"
