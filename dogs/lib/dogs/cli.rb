@@ -30,7 +30,7 @@
     if inp.between?(1,@scraping.size)
         the_scraper = @scraping[inp - 1]
         puts "#{the_scraper.name}"  
-        puts "Great choice ! if you would like more information regarding your option type INFO"
+        puts "Great choice ! if you would like more information regarding your option type INFO \u{1f642"
         
     elsif input == "info"
           puts "#{the_scraper.info}"
