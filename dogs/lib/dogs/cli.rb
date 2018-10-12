@@ -30,11 +30,11 @@
     if inp.between?(1,@scraping.size)
         the_scraper = @scraping[inp - 1]
         puts "#{the_scraper.name}"  
-        puts "Great choice if you would like more information regarding your option type INFO"
+        puts "Great choice ! if you would like more information regarding your option type INFO"
         
     elsif input == "info"
           puts "#{the_scraper.info}"
-          puts "To go back to our adoption menu type list if you had enough cuteness type exit"      
+          puts "To go back to our adoption menu type list, if you had enough cuteness type exit"      
         
     elsif input == "list"
           welcome_method
