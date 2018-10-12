@@ -25,7 +25,6 @@
     input = nil
    
   while input != "exit" 
-    input != "info"
     input = gets.strip.downcase 
     inp = input.to_i
     
@@ -33,17 +32,19 @@
   if inp.between?(1,@scraping.size)
     the_scraper = @scraping[inp - 1]
     puts "#{the_scraper.name}"  
-    puts "Great choice!!! if you would like more information about this dog type  => info"
+    puts "Great choice if you would like more information regarding your option type INFO"
   
-  elsif input == ["info", "INFO"].include?(input.upcase)
+  elsif input == "info"
     puts "#{the_scraper.info}"
-    puts "To see the dogs list again type list or exit."      
+    puts "To see our selections again please type LIST or EXIT"      
   
   elsif input == "list"
     welcome_method
+    elsif input == "exit"
+  break 
        
   else 
-      puts "Whoops!! invalid selection please type list or exit."
+      puts "\u{1f640} Whoops invalid choice to go back to our main menu type List"
       
   end 
   end 
