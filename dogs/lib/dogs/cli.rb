@@ -10,6 +10,8 @@
     
     def welcome_method 
       puts "\u{1f436}  Welcome to Wagging Tails Rescue  \u{1f436}"
+      puts "_____________________________________________________"
+      
       @scraping = Dog.all 
       @scraping.each.with_index(1) do |recipe, i| 
       puts "#{i}. #{recipe.name}" 
@@ -29,7 +31,7 @@
     if inp.between?(1,@scraping.size)
         the_scraper = @scraping[inp - 1]
         puts "#{the_scraper.name}"  
-        puts "Great choice ! if you would like more information regarding your option type INFO"
+        puts "Great choice! if you would like more information regarding your option type INFO"
         
     elsif input == "info"
           puts "#{the_scraper.info}"
