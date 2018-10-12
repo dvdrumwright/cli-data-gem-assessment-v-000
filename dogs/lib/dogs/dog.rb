@@ -6,7 +6,7 @@
         
     def self.all
       @@all
-      end
+    end
         
     def save
       @@all << self
