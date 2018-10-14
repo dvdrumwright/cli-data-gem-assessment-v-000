@@ -1,28 +1,21 @@
 # dogs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/italian_food`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to dogs gem! in this gem you will have the ability to choose from the dogs options and learn more about them.  
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'italian_food'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install italian_food
+1. Retrieve the repository from cli-data-gem-assessment-v-000, to do this copy and paste the link       provided in your browser.  https://github.com/dvdrumwright?tab=repositories
+2. Click on cli-data-gem-assessment-v-000 
+3. Once in the next page, click on the green button titled "clone or download" 
+4. Make sure you are cloning with SSH and click on the "clip board icon" 
+5. Now, in your IDE or sandbox terminal type "git clone" and paste the link copied from the clip board
+6. Once the gem has been installed, type "cd cli-data-gem-assessment-v-000" 
+7. once in cd cli-data-gem-assessment-v-000, type cd dogs, and type lastly ruby bin/dogs 
 
 ## Usage
 
-TODO: Write usage instructions here
+To use the dogs gem type the number assigned to the dogs name you are interested in, once you have selected your number the gem will prompt a question, regarding wether you would like more information. If you choose to know more about your options, type info on the terminal. To see the list of dogs again, type list. Likewise, to exit the gem type exit. 
+
 
 ## Development
 
@@ -32,7 +25,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/'dvdrumwright'/italian_food. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/'dvdrumwright'/Dogs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
